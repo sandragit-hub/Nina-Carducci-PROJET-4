@@ -111,6 +111,10 @@ body {
     border-radius: 0
 }
 
+li :hover {
+    cursor: pointer;
+}
+
 .nav-pills .nav-link {
     color: #000
 }
