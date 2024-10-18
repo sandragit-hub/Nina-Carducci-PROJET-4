@@ -63,6 +63,15 @@ body {
 	z-index: -1;
 }
 
+.carousel-inner img {
+	object-fit: cover;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	color: #000;
+}
+
 .picture {
 	flex: 1;
 	margin: 0 20px;
@@ -70,7 +79,7 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	object-fit: cover;
 
 }
 
